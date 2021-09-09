@@ -1,0 +1,46 @@
+const array = ['hello','world'];
+
+const newArray = array.map(function(val, index){
+    return val = index;
+
+});
+
+const filteredValues = array.filter(function(val, index){
+    return val = 'hello'
+});
+const obj = [{
+    name: 'Bob',
+    age: 50
+    type: 'Person',
+    getAge: function(){
+        return this.age;
+    },
+    getName: function(){
+        return this.name;
+    }
+};
+
+
+class Bob {
+    name;
+    age;
+    type;
+
+    constructor(name, age, type) {
+        this.name = name;
+        this.age = age;
+        this.type = type;
+    }
+
+getAge(){}
+
+getName(){}
+
+getType(){}
+
+
+}
+
+
+
+
